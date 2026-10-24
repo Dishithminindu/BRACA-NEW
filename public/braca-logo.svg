@@ -1,0 +1,74 @@
+<svg viewBox="0 0 780 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="braca-bars-clip-pub">
+      <rect x="23" y="65" width="16" height="130" rx="8" />
+      <rect x="47" y="42" width="16" height="176" rx="8" />
+      <rect x="71" y="24" width="16" height="212" rx="8" />
+      <rect x="95" y="12" width="16" height="236" rx="8" />
+      <rect x="119" y="24" width="16" height="212" rx="8" />
+      <rect x="143" y="42" width="16" height="176" rx="8" />
+      <rect x="167" y="65" width="16" height="130" rx="8" />
+    </clipPath>
+  </defs>
+
+  <!-- Bars group -->
+  <g clip-path="url(#braca-bars-clip-pub)">
+    <rect width="210" height="260" fill="#1e5631" />
+    
+    <!-- White Owl Cutout -->
+    <path
+      d="M 103 104
+         C 95 94, 77 80, 65 64
+         C 60 57, 53 45, 48 38
+         C 47 35, 44 38, 45 41
+         L 48 53
+         L 41 49
+         L 43 64
+         L 36 59
+         C 35 68, 36 78, 37 87
+         C 38 99, 39 111, 41 123
+         C 34 127, 29 137, 34 146
+         L 42 144
+         L 35 156
+         L 45 157
+         L 39 170
+         C 46 175, 53 180, 61 183
+         C 72 187, 86 189, 103 189
+         C 120 189, 134 187, 145 183
+         C 153 180, 160 175, 167 170
+         L 161 157
+         L 171 156
+         L 164 144
+         C 169 137, 164 127, 157 123
+         C 159 111, 160 99, 161 87
+         C 162 78, 163 68, 162 59
+         L 155 64
+         L 157 49
+         L 150 53
+         L 153 41
+         C 154 38, 151 35, 150 38
+         C 145 45, 138 57, 133 64
+         C 121 80, 111 94, 103 104
+         Z"
+      fill="#ffffff"
+    />
+
+    <!-- Green Beak -->
+    <path d="M 95 100 L 111 100 L 105 144 C 104 147, 102 147, 101 144 Z" fill="#1e5631" />
+
+    <!-- Left Eye -->
+    <circle cx="71" cy="122" r="18" fill="#ffffff" />
+    <circle cx="71" cy="122" r="12.5" fill="#1e5631" />
+    <circle cx="69" cy="120" r="5" fill="#ffffff" />
+
+    <!-- Right Eye -->
+    <circle cx="135" cy="122" r="18" fill="#ffffff" />
+    <circle cx="135" cy="122" r="12.5" fill="#1e5631" />
+    <circle cx="133" cy="120" r="5" fill="#ffffff" />
+  </g>
+
+  <!-- Typography -->
+  <text x="235" y="145" font-family="'Cinzel', 'Playfair Display', 'Times New Roman', serif" font-size="145" font-weight="500" fill="#1e5631" letter-spacing="4">BRACA</text>
+  <text x="238" y="195" font-family="'Montserrat', 'Inter', 'Segoe UI', sans-serif" font-size="28" font-weight="600" fill="#1c1b18" letter-spacing="4.5">BIODIVERSITY RESEARCH AND</text>
+  <text x="238" y="235" font-family="'Montserrat', 'Inter', 'Segoe UI', sans-serif" font-size="28" font-weight="600" fill="#1c1b18" letter-spacing="4">CONSERVATION ALLIANCE (PVT) LTD</text>
+</svg>

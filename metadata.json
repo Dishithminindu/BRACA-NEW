@@ -1,0 +1,6 @@
+{
+  "name": "BRACA — Biodiversity Research & Conservation Alliance",
+  "description": "Biodiversity Research and Conservation Alliance (BRACA) — Investigating the owls and nocturnal wildlife of the Serengeti ecosystem through field research and habitat conservation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

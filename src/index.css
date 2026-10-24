@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  --font-editorial: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --color-forest-black: #101510;
+  --color-dark-olive: #1D241B;
+  --color-savanna-amber: #C6A56A;
+  --color-amber-muted: #B89658;
+  --color-moonlight: #F2EFE5;
+  --color-gray-olive: #A6AA9A;
+  --color-subtle-border: #34392F;
+}
+
+/* Custom background utility */
+body {
+  background-color: #101510;
+  color: #F2EFE5;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbars and styling */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #101510;
+}
+::-webkit-scrollbar-thumb {
+  background: #34392F;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C6A56A;
+}
+
+/* Gentle image fade & smooth transitions */
+.smooth-reveal {
+  transition: opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1), transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+
+/* BRACA experience polish: consistent motion, focus visibility and mobile scrolling. */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  min-width: 320px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button, a, input, textarea, select {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible {
+  outline: 2px solid #C6A56A;
+  outline-offset: 3px;
+}
+
+img {
+  max-width: 100%;
+}
+
+::selection {
+  background: #C6A56A;
+  color: #101510;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
